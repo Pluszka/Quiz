@@ -11,3 +11,5 @@ quiz=QuizBrain(questionBank)
 
 while quiz.questionsStill():
     quiz.nextQuestion()
+
+print(f'You finished the quiz! \nYour final score is equal {quiz.score}/{len(questionBank)} ')

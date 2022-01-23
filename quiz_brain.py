@@ -19,4 +19,4 @@ class QuizBrain:
             self.score += 1
         else:
             print('You faild.')
-        print(f'Your current score is {self.score}/{self.number}')
+        print(f'Your current score is {self.score}/{self.number}\n')
