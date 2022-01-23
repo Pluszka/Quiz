@@ -7,4 +7,5 @@ for dict in question_data:
     questions = Question(dict['text'], dict['answer'])
     questionBank.append(questions)
 
-quiz=QuizBrain
+quiz=QuizBrain(questionBank)
+quiz.nextQuestion()
